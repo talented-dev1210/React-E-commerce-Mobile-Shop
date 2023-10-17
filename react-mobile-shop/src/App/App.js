@@ -24,7 +24,6 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
 
-        {/* react-router-dom */}
         <Switch>
           <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} />
